@@ -1,5 +1,5 @@
 # MCQ Type C Programming [ Solved ] :name_badge:
-> Here , We are going to solve C programming Mcq Questions :arrow_down:
+> Here , We are going to solve C programming Mcq with Answers :arrow_down:
 ## [Follow Here](https://github.com/0xSingh/) :heavy_check_mark: IDE Prefered:[Click Here ](https://ideone.com/)  :heavy_check_mark:
  
 |                                `What will be the output of the following C code?`                                |
@@ -82,3 +82,5 @@
                 printf ("%d",i++);
              return 0; */
  ```            
+|Stay Tuned ,I will upload more problems based on Other Topics|
+|-------------------------------------------------------------|
