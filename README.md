@@ -7,7 +7,7 @@
 ```
 1.double f1 = 0.1;
    if (f1 == 0.1)
-      printf("equal\n");                 #Answer : Not Equal [ 0.1 is by default represented as a Double ]
+      printf("equal\n");                       Answer : Not Equal [ 0.1 is by default represented as a Double ]
       else                                         Replace Float into Double to Get your desired answer
       printf("not equal\n");
 ```
@@ -34,7 +34,7 @@
 ```
 5.   int a=20,b=3;
         if(a<10)
-            a=a-5;                             `Answer` : a=20    b=3
+            a=a-5;                             Answer : a=20    b=3
             b=b+5;
         printf ("a=%d   b=%d\n",a,b);
         return 0; */
