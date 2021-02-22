@@ -74,8 +74,8 @@
 9.    int i ;
              for (i=1;i<5;i++);
              printf ("%d ",i);
-             i=10;                               Answer : 5 10 01234 [ First For loop Executed Succesfully {5} , 2nd While Loop not executed , 3rd While 
-             while (i<5);                                                   loop executed successfully , and it will Return 0 1 2 3 4 ]
+             i=10;                           Answer : 5 10 01234 [ First For loop Executed Succesfully {5} , 2nd While Loop not executed , 3rd While 
+             while (i<5);                                               loop executed successfully , and it will Return 0 1 2 3 4 ]
              printf ("%d ",i++);
              i=0;
              while (i<5)
