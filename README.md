@@ -1,15 +1,14 @@
 # MCQ Types C Programming-
-'Here , We are going to solve C programming Mcq Questions'
-## "Use any IDE , Prefered : ideone.com" 
+'Here , We are going to solve C programming Mcq Questions'  
+## @octocat :+1:"Use any IDE , Prefered : [ideone.com] " :shipit:
 
 ## What will be the output of the following C code?
 
-
- 1.   double f1 = 0.1;
- 2.     if (f1 == 0.1)
- 3.          printf("equal\n");              //  Answer : Not Equal [ 0.1 is by default represented as a Double ]//
- 4.      else                                 // Replace Float into Double to Get your desired answer //
- 5.          printf("not equal\n"); */
+1. double f1 = 0.1;
+   -if (f1 == 0.1)
+    -printf("equal\n");                      **Answer** : Not Equal [ 0.1 is by default represented as a Double ]
+     -else                                                *Replace Float into Double to Get your desired answer*
+      -printf("not equal\n");
 
 
 /* 2.    j = 10;
