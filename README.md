@@ -2,7 +2,7 @@
 > Here , We are going to solve C programming Mcq Questions :arrow_down:
 ## [Follow Here](https://github.com/0xSingh/) :heavy_check_mark: Use any IDE,Prefered:[Click Here ](https://ideone.com/)  :heavy_check_mark:
  
-|                                ' What will be the output of the following C code?'                                |
+|                                `What will be the output of the following C code?`                                |
 |--------------------------------------------------------------------------------------------------------------------|
 ```
 1.double f1 = 0.1;
