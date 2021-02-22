@@ -1,13 +1,13 @@
 # MCQ Type C Programming [ Solved ] :name_badge:
 > Here , We are going to solve C programming Mcq Questions :arrow_down:
-## @0xsingh :ballot_box_with_check: "Use any IDE , Prefered : [Click Here ](https://ideone.com/) " :heavy_check_mark:
+## [Follow Here](https://github.com/0xSingh/):ballot_box_with_check:  Use any IDE , Prefered : [Click Here ](https://ideone.com/)  :heavy_check_mark:
  
 |                                ## What will be the output of the following C code?
 ```
 1.double f1 = 0.1;
    if (f1 == 0.1)
-      printf("equal\n");                      #Answer : Not Equal [ 0.1 is by default represented as a Double ]
-      else                                                Replace Float into Double to Get your desired answer
+      printf("equal\n");                    #Answer : Not Equal [ 0.1 is by default represented as a Double ]
+      else                                            Replace Float into Double to Get your desired answer
       printf("not equal\n");
 ```
 
