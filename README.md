@@ -13,7 +13,7 @@
       else                                                 
       printf("not equal\n");        
 ```
-Answer : Not Equal [ 0.1 is by default represented as a Double ] Replace Float into Double to Get your desired answer
+[ ] Answer : Not Equal [ 0.1 is by default represented as a Double ] Replace Float into Double to Get your desired answer
 ```c
 2.    j = 10;
         printf("%d\n", j++);                   
@@ -21,7 +21,7 @@ Answer : Not Equal [ 0.1 is by default represented as a Double ] Replace Float i
 [ ] Answer : Compile time error: " j " is undeclared [ use int for result ]
 ```c
 3. for (int k = 0; k < 10; k++);
-return 0;              
+   return 0;              
 ```
 [ ] Answer : Depends on C standerd Set by the Compiler
 ```c
@@ -49,7 +49,8 @@ return 0;
           printf ("My Surname is Singh\n");
           return 0; 
 ```
-[ ] Answer : My name is Akash [ Explaination: ]
+[ ] Answer : My name is Akash [ True =1,False=0 <!a=!true=false so !a<10 is true 
+                                b=0 so !b=!false=true where c=0 means false ]
 ```c
 7.
         int i=1,j=9;
@@ -58,7 +59,7 @@ return 0;
          printf ("%d\n",i);
          return 0; 
  ```
-[ ] Answer : 1 [True && False is False which is 0]
+[ ] Answer : 1[True && False is False which is 0]
  ```c
 8.
            int j,k,i;                           
@@ -80,13 +81,82 @@ return 0;
              for (i=1;i<5;i++);
              printf ("%d ",i);
              i=10;                          
-             while (i<5);                                             
+             while (i<5);
+             printf ("%d",i++);
              i=0;
              while (i<5)
-                printf ("%d",i++);
+             printf ("%d",i++);
              return 0; 
  ```  
-[ ] Answer : 5 10 01234 [ First For loop Executed Succesfully {5} , 2nd While Loop not executed , 3rd While   loop executed successfully , and it will Return 0 1 2 3 4 ]
-             printf ("%d ",i++);
+[ ] Answer : 5 10 01234 [ First For loop Executed Succesfully {5} , 2nd While Loop not executed but due to printf function,value of i printed once  ,
+3rd While loop executed successfully , and it will Return 0 1 2 3 4 ]
+ ```c
+10.
+        int x = 5;
+        if (x < 1)
+            printf("hello");
+        if (x == 5)
+            printf("hi");
+        else
+            printf("no");
+    }
+  ```
+ [ ] Answer : hi 
+ ```c
+ 11.     int a = 0, i = 0, b;
+        for (i = 0;i < 5; i++)
+        {
+            a++;
+            continue;
+        }
+ ```
+ [ ] Answer : 5
+ ```c
+12.  int a = 0, i = 0, b;
+        for (i = 0;i < 5; i++)
+        {
+            a++;
+            if (i == 3)
+                break;
+        }
+```
+[ ] Answer: 4
+ ```c
+13.     int i = 0, j = 0;
+        for (i = 0;i < 5; i++)
+        {
+            for (j = 0;j < 4; j++)
+            {
+                if (i > 1)
+                    break;
+            }
+            printf("Hi \n");
+        }
+```
+[ ] Answer: Hi is printed 5 times
+```c
+14.          int i = 0;
+        int j = 0;
+        for (i = 0;i < 5; i++)
+        {
+            for (j = 0;j < 4; j++)
+            {
+                if (i > 1)
+                    continue;
+                    printf("Hi \n");
+            }
+        }
+```
+[ ] Answer : Hi is printed 8 times
+```c
+15.        int i = 0;
+        for (i = 0;i < 5; i++)
+            if (i < 4)
+            {
+                printf("Hello");
+                break;
+            }
+ ```
+ [ ] Answer : Hello
 |Stay Tuned ,I will upload more problems based on Other Topics|
 |-------------------------------------------------------------|
