@@ -1,5 +1,5 @@
-# MCQ Type C Programming [ Solved ] :name_badge:
-> Here , We are going to solve C programming Mcq with Answers :arrow_down:
+# MCQ Type C Programming [Solved]:name_badge:
+> Here is a listing of C interview questions along with answers, explanations and/or solutions::arrow_down:
 ## [Follow Here](https://github.com/0xSingh/) :heavy_check_mark: IDE Prefered:[Click Here ](https://ideone.com/)  :heavy_check_mark:
  
 |                                `What will be the output of the following C code?`                                |
@@ -7,18 +7,18 @@
 ```
 1.double f1 = 0.1;
    if (f1 == 0.1)
-      printf("equal\n");                       Answer : Not Equal [ 0.1 is by default represented as a Double ]
-      else                                         Replace Float into Double to Get your desired answer
-      printf("not equal\n");
+      printf("equal\n");            | Answer : Not Equal [ 0.1 is by default represented as a Double ]  |
+      else                                   Replace Float into Double to Get your desired answer
+      printf("not equal\n");        |-------------------------------------------------------------------|
 ```
 ```
 2.    j = 10;
-        printf("%d\n", j++);                   Answer : Compile time error :  " j " is undeclared [ use int for result ]
+        printf("%d\n", j++);         Answer : Compile time error: " j " is undeclared [ use int for result ]
         return 0; */
 
 ```
 ```
-3. for (int k = 0; k < 10; k++);               Answer : Depends on C standerd Set by the Compiler
+3. for (int k = 0; k < 10; k++);     Answer : Depends on C standerd Set by the Compiler
         return 0; */
 
 ```
