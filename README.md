@@ -13,7 +13,7 @@
       else                                                 
       printf("not equal\n");        
 ```
-[ ] [Answer : Not Equal [ 0.1 is by default represented as a Double ] Replace Float into Double to Get your desired answer
+[Answer : Not Equal [ 0.1 is by default represented as a Double ] Replace Float into Double to Get your desired answer
 ```c
 2.    j = 10;
         printf("%d\n", j++);                   
