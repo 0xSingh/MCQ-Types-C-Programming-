@@ -8,7 +8,7 @@
 1.double f1 = 0.1;
    if (f1 == 0.1)
       printf("equal\n");            | Answer : Not Equal [ 0.1 is by default represented as a Double ]  |
-      else                                   Replace Float into Double to Get your desired answer
+      else                          |         Replace Float into Double to Get your desired answer      |
       printf("not equal\n");        |-------------------------------------------------------------------|
 ```
 ```
