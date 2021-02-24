@@ -19,18 +19,18 @@
 new
 Delhi
 ```c
-3.    	      int a=11;
-	      Printf("a=%d\t",a);
-	      Printf("a=%o\t",a);
-	      Printf("a=%x\t",a);
-	      Printf("a=%x\n",a); 
+3.      int a=11;
+        Printf("a=%d\t",a);
+        Printf("a=%o\t",a);
+	Printf("a=%x\t",a);
+	Printf("a=%x\n",a); 
 ```
 [ ] Answer :  a=11    a=13    a=b     a=b
 ```c
-4.    	      int a=4000000000;
-	      Unsigned int b=4000000000;
-	      Printf ("a=%d,b=%u\n",a,b);
-	      Printf("a=%d,b=%u\n",INT_MAX,UINT_MAX);
+4.      int a=4000000000;
+        Unsigned int b=4000000000;
+        Printf ("a=%d,b=%u\n",a,b);
+        Printf("a=%d,b=%u\n",INT_MAX,UINT_MAX);
 ```
 [ ] Answer : a=-294967296,b=4000000000
                         a=2147483647,b=4294967295
@@ -42,25 +42,25 @@ Delhi
 ```
  [ ] Answer : Enter a character:a,97
 ```c
-6.              float b=123.1265;
-	        Printf("%f\t",b);
-	        Printf("%.2f\t",b);
-	        Printf("%.3f\n",b);
+6.      float b=123.1265;
+        Printf("%f\t",b);
+	Printf("%.2f\t",b);
+        Printf("%.3f\n",b);
 ```
 [ ] Answer : 123.126503	123.13	123.127
 ```c
 7.
-               int a=625,b=2394,c=12345;
-	       printf("%5d,%5d,%5d\n",a,b,c);
-	       printf("%3d,%4d,%5d\n",a,b,c);
+         int a=625,b=2394,c=12345;
+	 printf("%5d,%5d,%5d\n",a,b,c);
+	 printf("%3d,%4d,%5d\n",a,b,c);
  ```
 [ ] Answer :[2 space Gap]625,[1space]2394,12345
                                    625,2394,12345
  ```c
 8.
-               int a=98;
-	       char ch='c';
-	       Printf("%c,%d\n",a,ch);
+          int a=98;
+	  char ch='c';
+          Printf("%c,%d\n",a,ch);
 ```
 [ ] Answer: b,99
 ```c
@@ -80,10 +80,10 @@ Delhi
   4.2,  3.57    9.8,   85.67
  ```c
 10.
-               Printf("%10s\n","India");
-	       Printf("%4s\n","India");
-	       Printf("%.2s\n","India");
-	       Printf("%5.2s\n","India");
+            Printf("%10s\n","India");
+	    Printf("%4s\n","India");
+	    Printf("%.2s\n","India");
+	    Printf("%5.2s\n","India");
 ```
  [ ] Answer : 
    India
@@ -128,11 +128,11 @@ In
  [ ] Answer : a=20    b=3
 ```c
 6.  int a=9,b=0,c=0;
-          if(!a<10  && !b||c)
-          printf ("My name is Akash\n");        
-          else
-          printf ("My Surname is Singh\n");
-          return 0; 
+       if(!a<10  && !b||c)
+       printf ("My name is Akash\n");        
+       else
+       printf ("My Surname is Singh\n");
+       return 0; 
 ```
 [ ] Answer : My name is Akash [ True =1,False=0 <!a=!true=false so !a<10 is true 
                                 b=0 so !b=!false=true where c=0 means false ]
