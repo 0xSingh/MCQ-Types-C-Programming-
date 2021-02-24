@@ -4,37 +4,123 @@
  
 |                                `What will be the output of the following C code?`                                |
 |--------------------------------------------------------------------------------------------------------------------|
-
-##  [ ] Topic: Control Flow Statements in C
+##  [ ] Topic: Input-output in C
 ```C
-1.double f1 = 0.1;
-   if (f1 == 0.1)
+1.     #define MSSG "Hello world\n"
+       printf (MSSG);
+ ```
+[ ] Answer : Hello world [ define is pre processor statement in C Language. All statements prefixed with # are preprocessor statements ]
+```c
+2.     Printf("indian\b\n");
+      	Printf("new\rDelhi\n");
+```
+[ ] Answer : [\b is a backspace escape sequence. /r is "carriage return" character. It will move the cursor to the left side of the screen but will not move down a line.]
+ indian
+new
+Delhi
+```c
+3.    	int a=11;
+	      Printf("a=%d\t",a);
+	      Printf("a=%o\t",a);
+	      Printf("a=%x\t",a);
+	      Printf("a=%x\n",a); 
+```
+[ ] Answer :  a=11    a=13    a=b     a=b
+```c
+4.    	int a=4000000000;
+	      Unsigned int b=4000000000;
+	      Printf ("a=%d,b=%u\n",a,b);
+	      Printf("a=%d,b=%u\n",INT_MAX,UINT_MAX);
+```
+[ ] Answer : a=-294967296,b=4000000000
+                        a=2147483647,b=4294967295
+```c
+5.      char ch;
+            Printf("Enter a character:");
+	Scanf("%c",&ch);
+	Printf("%d\n",ch);
+```
+ [ ] Answer : Enter a character:a,97
+```c
+6.       float b=123.1265;
+	        Printf("%f\t",b);
+	        Printf("%.2f\t",b);
+	        Printf("%.3f\n",b);
+```
+[ ] Answer : 123.126503	123.13	123.127
+```c
+7.
+        int a=625,b=2394,c=12345;
+	       printf("%5d,%5d,%5d\n",a,b,c);
+	       printf("%3d,%4d,%5d\n",a,b,c);
+ ```
+[ ] Answer :[2 space Gap]625,[1space]2394,12345
+                                   625,2394,12345
+ ```c
+8.
+        int a=98;
+	       char ch='c';
+	       Printf("%c,%d\n",a,ch);
+```
+[ ] Answer: b,99
+```c
+9.     float a1,b1,a2,b2,a3,b3;
+	      a1=2;
+	      b1=6.8;
+	      a2=4.2;
+       b2=3.57;
+	      a3=9.82;
+	      b3=85.673;
+	      Printf("%3.1f,%4.2f\n",a1,b1);
+	      Printf("%5.1f,%6.2f",a2,b2);
+	      Printf("%7.1f,%8.2f\n",a3,b3);
+ ```  
+[ ] Answer : 
+2.0,6.80
+  4.2,  3.57    9.8,   85.67
+ ```c
+10.
+        Printf("%10s\n","India");
+	       Printf("%4s\n","India");
+	       Printf("%.2s\n","India");
+	       Printf("%5.2s\n","India");
+```
+ [ ] Answer : 
+   India
+India
+In
+   In
+```c
+ ## [ ] Topic:  Control Flow Statements in C
+```C
+1.    double f1 = 0.1;
+      if (f1 == 0.1)
       printf("equal\n");                       
       else                                                 
       printf("not equal\n");        
 ```
 [ ] Answer : Not Equal [ 0.1 is by default represented as a Double ] Replace Float into Double to Get your desired answer
-```c
-2.    j = 10;
+```c 
+2.      j = 10;
         printf("%d\n", j++);                   
 ```
 [ ] Answer : Compile time error: " j " is undeclared [ use int for result ]
 ```c
-3. for (int k = 0; k < 10; k++);
-   return 0;              
+3.      for (int k = 0; k < 10; k++);
+        return 0;              
 ```
 [ ] Answer : Depends on C standerd Set by the Compiler
 ```c
-4.  int a =9;
+4.     int a =9;
        if (a==5)
        printf ("a is five\t");               
        else
-        ("a is not five\t");
+       ("a is not five\t");
        printf("Value of a is %d\n",a);
 ```
 [ ] Answer : a is not five     Value of a is 9
 ```c
-5.   int a=20,b=3;
+5.      int a=20,b=3;
         if(a<10)
             a=a-5;                            
             b=b+5;
