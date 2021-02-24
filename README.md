@@ -90,8 +90,7 @@ Delhi
 India
 In
    In
-```c
- ## [ ] Topic:  Control Flow Statements in C
+   ## [ ] Topic:  Control Flow Statements in C
 ```C
 1.    double f1 = 0.1;
       if (f1 == 0.1)
