@@ -11,7 +11,7 @@
  ```
 [ ] Answer : Hello world [ define is pre processor statement in C Language. All statements prefixed with # are preprocessor statements ]
 ```c
-2.     Printf("indian\b\n");
+2.      Printf("indian\b\n");
       	Printf("new\rDelhi\n");
 ```
 [ ] Answer : [\b is a backspace escape sequence. /r is "carriage return" character. It will move the cursor to the left side of the screen but will not move down a line.]
@@ -19,7 +19,7 @@
 new
 Delhi
 ```c
-3.    	int a=11;
+3.    	      int a=11;
 	      Printf("a=%d\t",a);
 	      Printf("a=%o\t",a);
 	      Printf("a=%x\t",a);
@@ -27,7 +27,7 @@ Delhi
 ```
 [ ] Answer :  a=11    a=13    a=b     a=b
 ```c
-4.    	int a=4000000000;
+4.    	      int a=4000000000;
 	      Unsigned int b=4000000000;
 	      Printf ("a=%d,b=%u\n",a,b);
 	      Printf("a=%d,b=%u\n",INT_MAX,UINT_MAX);
@@ -36,13 +36,13 @@ Delhi
                         a=2147483647,b=4294967295
 ```c
 5.      char ch;
-            Printf("Enter a character:");
+        Printf("Enter a character:");
 	Scanf("%c",&ch);
 	Printf("%d\n",ch);
 ```
  [ ] Answer : Enter a character:a,97
 ```c
-6.       float b=123.1265;
+6.              float b=123.1265;
 	        Printf("%f\t",b);
 	        Printf("%.2f\t",b);
 	        Printf("%.3f\n",b);
@@ -50,7 +50,7 @@ Delhi
 [ ] Answer : 123.126503	123.13	123.127
 ```c
 7.
-        int a=625,b=2394,c=12345;
+               int a=625,b=2394,c=12345;
 	       printf("%5d,%5d,%5d\n",a,b,c);
 	       printf("%3d,%4d,%5d\n",a,b,c);
  ```
@@ -58,17 +58,17 @@ Delhi
                                    625,2394,12345
  ```c
 8.
-        int a=98;
+               int a=98;
 	       char ch='c';
 	       Printf("%c,%d\n",a,ch);
 ```
 [ ] Answer: b,99
 ```c
-9.     float a1,b1,a2,b2,a3,b3;
+9.            float a1,b1,a2,b2,a3,b3;
 	      a1=2;
 	      b1=6.8;
 	      a2=4.2;
-       b2=3.57;
+              b2=3.57;
 	      a3=9.82;
 	      b3=85.673;
 	      Printf("%3.1f,%4.2f\n",a1,b1);
@@ -80,7 +80,7 @@ Delhi
   4.2,  3.57    9.8,   85.67
  ```c
 10.
-        Printf("%10s\n","India");
+               Printf("%10s\n","India");
 	       Printf("%4s\n","India");
 	       Printf("%.2s\n","India");
 	       Printf("%5.2s\n","India");
