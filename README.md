@@ -243,5 +243,8 @@ In
             }
  ```
  [ ] Answer : Hello
+ 
+ ## [ ] Topic:  Miscellaneous Problems Based on Function , Arrays, Pointers :small_red_triangle_down:
+ 
 |Stay Tuned ,I will upload more problems based on Other Topics|
 |-------------------------------------------------------------|
